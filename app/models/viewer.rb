@@ -14,13 +14,10 @@ class Viewer
     end
   end
 
-  def queue_movies
-    #return an array of `Movie` instances in the `Viewer`'s queue.
-    queue_items.map do |movie|
-
-      movie.queue_item
-    end
-  end
+  # def queue_movies
+  #   #return an array of `Movie` instances in the `Viewer`'s queue.
+ 
+  # end
 
   #his method should receive a `Movie` instance as its only argument and add it to the `Viewer`'s queue
   def add_movie_to_queue(movie)
